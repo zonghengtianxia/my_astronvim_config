@@ -60,7 +60,11 @@ return {
     end,
   },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.motion.mini-ai" },
+  { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.editing-support.ultimate-autopair-nvim" },
   { import = "astrocommunity.code-runner.sniprun" },
+  -- { import = "astrocommunity.code-runner.compiler-nvim" },
   { import = "astrocommunity.completion.tabnine-nvim" },
   { import = "astrocommunity.completion.codeium-vim" },
   -- Useage for codeium
@@ -75,12 +79,12 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" }, { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
-  {
-    "m4xshen/smartcolumn.nvim",
-    opts = {
-      colorcolumn = 120,
-      disabled_filetypes = { "help" },
-    },
-  },
+  -- { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  -- {
+  --   "m4xshen/smartcolumn.nvim",
+  --   opts = {
+  --     colorcolumn = 120,
+  --     disabled_filetypes = { "help" },
+  --   },
+  -- },
 }
