@@ -9,4 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "aduros/ai.vim",
+    config = function() vim.g.ai_no_mappings = 1 end,
+    lazy = false,
+  },
 }
